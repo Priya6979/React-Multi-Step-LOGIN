@@ -1,8 +1,17 @@
 import React from 'react';
 import logo from '../images/Logo.png';
 import design from '../images/Design.png';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+	const navigate = useNavigate();
+
+	const successNavigate = () => {
+		navigate('/verifydetails');
+	};
+	const arrowReverse = () => {
+		navigate('/');
+	};
 	return (
 		<div className="pic">
 			<img
@@ -18,7 +27,14 @@ const Login = () => {
 					alt="design"
 				></img>
 			</div>
-			<span className="arrow">&#8592;</span>
+
+			<span
+				className="arrow"
+				onClick={arrowReverse}
+			>
+				&#8592;
+			</span>
+
 			<h2 className="login"> LOGIN</h2>
 			<h3 className="line">Enter your phone number to proceed</h3>
 			<div className="align-login">
@@ -31,7 +47,13 @@ const Login = () => {
 					/>
 				</div>
 
-				<button className="btn"> CONTINUE </button>
+				<button
+					className="btn"
+					onClick={successNavigate}
+				>
+					{' '}
+					CONTINUE{' '}
+				</button>
 			</div>
 			<h4>
 				By clicking , I accept the

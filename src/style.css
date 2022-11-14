@@ -7,6 +7,18 @@
 	background-image: url(./images/BG.png);
 }
 
+.click {
+	background-color: #2a9ed5;
+	color: white;
+	font-size: large;
+	font-weight: bolder;
+	border-radius: 5px;
+	width: 176px;
+	height: 55px;
+
+	margin: 30px;
+}
+
 .img-main {
 	margin-top: 404px;
 }
@@ -16,7 +28,7 @@
 	margin-left: 121px;
 }
 .img-3 {
-	margin-top: 260px;
+	margin-top: 145px;
 	margin-right: 384px;
 }
 

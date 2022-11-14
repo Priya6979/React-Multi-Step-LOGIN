@@ -4,14 +4,29 @@ import '../src/style.css';
 import Login from './components/Login';
 import VerifyDetails from './components/VerifyDetails';
 import SignUp from './components/SignUp';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
 	return (
 		<div className="App">
-			{/*<SplashScreen />*/}
-			{/*<Login />*/}
-			{/*<VerifyDetails />*/}
-			<SignUp />
+			<Routes>
+				<Route
+					path="/"
+					element={<SplashScreen />}
+				/>
+				<Route
+					path="/login"
+					element={<Login />}
+				/>
+				<Route
+					path="/verifydetails"
+					element={<VerifyDetails />}
+				/>
+				<Route
+					path="/signup"
+					element={<SignUp />}
+				/>
+			</Routes>
 		</div>
 	);
 }

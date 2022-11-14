@@ -2,7 +2,13 @@ import React from 'react';
 import logo from '../images/Logo.png';
 import design from '../images/Design.png';
 import crystal from '../images/Crystal.png';
+import { useNavigate } from 'react-router-dom';
 const SplashScreen = () => {
+	const navigate = useNavigate();
+
+	const successNavigate = () => {
+		navigate('/login');
+	};
 	return (
 		<div className="logo">
 			<img
@@ -17,6 +23,13 @@ const SplashScreen = () => {
 					alt="design"
 				></img>
 			</div>
+
+			<button
+				className="click"
+				onClick={successNavigate}
+			>
+				GET STARTED &rarr;
+			</button>
 
 			<div>
 				<img
