@@ -5,6 +5,7 @@ import Login from './components/Login';
 import VerifyDetails from './components/VerifyDetails';
 import SignUp from './components/SignUp';
 import { Routes, Route } from 'react-router-dom';
+import Explore from './components/Explore';
 
 function App() {
 	return (
@@ -25,6 +26,10 @@ function App() {
 				<Route
 					path="/signup"
 					element={<SignUp />}
+				/>
+				<Route
+					path="/explore"
+					element={<Explore />}
 				/>
 			</Routes>
 		</div>

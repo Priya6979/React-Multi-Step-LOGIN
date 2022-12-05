@@ -207,3 +207,154 @@ h5 {
 	right: 500px;
 	top: 238px;
 }
+
+.dask {
+	background-color: #0f112f;
+	color: white;
+	height: 120vh;
+	width: 29vw;
+}
+
+.card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 40px;
+	width: 29vw;
+	height: 278px;
+	position: relative;
+
+	background: linear-gradient(
+		89.56deg,
+		rgba(15, 17, 47, 0) 4.9%,
+		#29bfce 120.45%
+	);
+	border-radius: 0px 0px 100px 0px;
+}
+
+.profile {
+	position: absolute;
+	right: 50px;
+	width: 200px;
+	border-radius: 140px;
+}
+
+.gem-solo {
+	width: 250px;
+	height: 253px;
+	margin-left: 570px;
+	margin-bottom: 89px;
+}
+
+.hand-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+}
+
+.date {
+	padding: 13px;
+	border-radius: 10px;
+	background-color: #326482;
+}
+
+.card-1 {
+	display: flex;
+	text-align: right;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 25px;
+	background: #17435d;
+	width: 586px;
+	height: 256px;
+	margin-top: 45px;
+	margin-left: 50px;
+}
+
+.card-2 {
+	display: flex;
+	text-align: right;
+	justify-content: space-around;
+	align-items: center;
+	background: #326482;
+
+	border-radius: 25px;
+	width: 620px;
+	height: 256px;
+	margin-top: 27px;
+	margin-left: 660px;
+}
+.head {
+	padding-bottom: 185px;
+}
+
+.head-1 {
+	padding-bottom: 185px;
+}
+
+.date-2 {
+	margin-top: 40px;
+	background-color: #17435d;
+	border-radius: 25px;
+	height: 6vh;
+	width: 12.2vw;
+	margin-left: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+.date-3 {
+	background-color: #326482;
+	border-radius: 25px;
+	margin-top: 40px;
+
+	height: 6vh;
+	width: 13vw;
+	margin-left: 660px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+.input {
+	background-color: #132248;
+	border-radius: 15px;
+	width: 23.6vw;
+	margin-left: 60px;
+	margin-top: 949px;
+	padding: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.query {
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1337px;
+	height: 215px;
+	background: linear-gradient(
+		89.56deg,
+		rgba(15, 17, 47, 0) 4.9%,
+		#29bfce 120.45%
+	);
+	margin-top: 30px;
+}
+.ask {
+	width: 225px;
+}
+.man {
+	width: 100px;
+}
